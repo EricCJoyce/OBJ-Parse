@@ -151,3 +151,18 @@ Display some notes on how to use this script.
 ## Recommended Settings
 
 Settings really depend on the mesh you intend to parse. Consider that `theta` is really the driving force of this script: setting it higher will absorb more mesh faces into fewer groups; setting it lower will produce more groups with fewer mesh faces. When trying to find a subset mesh of an object we as humans would consider "flat," try to gauge how "flat" a literal-minded program would find it. For instance we ran several tests searching for a control panel which, yes, was a flat surface, though the panel actually had raised buttons and a beveled central face. Finding the entire "flat" panel, then, complete with protrusions required making `theta` higher than we had expected.
+
+## Citation
+
+If this code was helpful for your research, please consider citing this repository.
+
+```
+@misc{obj-parse_2019,
+  title={OBJ-Parse},
+  author={Eric C. Joyce},
+  year={2019},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/EricCJoyce/OBJ-Parse}}
+}
+```
